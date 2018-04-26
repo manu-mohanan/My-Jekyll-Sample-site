@@ -1,0 +1,23 @@
+---
+layout: post
+title: Muffins
+---
+<h1>
+    Our Cupcakessssss
+</h1>
+<div class="cupcakes">
+    {% for cupcake in site.cupcakesTest %}
+    {% if cupcake.type contains "Chocolate" %}
+    <div class="cupcake">
+        <div class="image">
+            <img src="{{ cupcake.image_path }}" alt="{{ cupcake.type }}" 
+            style="-webkit-filter:grayscale(100%)"
+            />
+        </div>
+        <h3>{{ cupcake.type }}</h3>
+        <p>{{ cupcake.description }}</p>
+    </div>
+    {% endif %}
+    {% endfor %}
+    Time : {{ site.time }}
+</div>
