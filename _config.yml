@@ -1,5 +1,5 @@
 baseurl: "/My-Jekyll-Sample-site"
-url: "https://manu-mohanan.github.io/My-Jekyll-Sample-site/"
+url: "https://github.com/manu-mohanan/My-Jekyll-Sample-site/"
 show_drafts: true
 collections:
     - cupcakesTest
